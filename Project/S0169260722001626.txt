@@ -1,0 +1,18 @@
+Rishav Pramanik, Momojit Biswas, Shibaprasad Sen, Luis Antonio de Souza Júnior, João Paulo Papa, Ram Sarkar,
+A fuzzy distance-based ensemble of deep models for cervical cancer detection,
+Computer Methods and Programs in Biomedicine,
+Volume 219,
+2022,
+106776,
+ISSN 0169-2607,
+https://doi.org/10.1016/j.cmpb.2022.106776.
+(https://www.sciencedirect.com/science/article/pii/S0169260722001626)
+Abstract: Background and Objective
+Cervical cancer is one of the leading causes of women’s death. Like any other disease, cervical cancer’s early detection and treatment with the best possible medical advice are the paramount steps that should be taken to ensure the minimization of after-effects of contracting this disease. PaP smear images are one the most effective ways to detect the presence of such type of cancer. This article proposes a fuzzy distance-based ensemble approach composed of deep learning models for cervical cancer detection in PaP smear images.
+Methods
+We employ three transfer learning models for this task: Inception V3, MobileNet V2, and Inception ResNet V2, with additional layers to learn data-specific features. To aggregate the outcomes of these models, we propose a novel ensemble method based on the minimization of error values between the observed and the ground-truth. For samples with multiple predictions, we first take three distance measures, i.e., Euclidean, Manhattan (City-Block), and Cosine, for each class from their corresponding best possible solution. We then defuzzify these distance measures using the product rule to calculate the final predictions.
+Results
+In the current experiments, we have achieved 95.30%, 93.92%, and 96.44% respectively when Inception V3, MobileNet V2, and Inception ResNet V2 run individually. After applying the proposed ensemble technique, the performance reaches 96.96% which is higher than the individual models.
+Conclusion
+Experimental outcomes on three publicly available datasets ensure that the proposed model presents competitive results compared to state-of-the-art methods. The proposed approach provides an end-to-end classification technique to detect cervical cancer from PaP smear images. This may help the medical professionals for better treatment of the cervical cancer. Thus increasing the overall efficiency in the whole testing process. The source code of the proposed work can be found in github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble.
+Keywords: Cervical cancer; Computer-aided detection; Deep learning; Fuzzy logic; Ensemble learning
